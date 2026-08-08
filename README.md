@@ -10,7 +10,7 @@
 [![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma)](https://www.prisma.io/)
 [![Tavily](https://img.shields.io/badge/Tavily-AI%20Search-purple?style=for-the-badge)](https://tavily.com/)
 
-**[🚀 Live Demo](https://your-deployed-link-here.vercel.app)** &nbsp;|&nbsp; **[📁 Repository](https://github.com/gohul4151/perplexity-search-LLM)**
+**[🚀 Live Demo]([https://your-deployed-link-here.vercel.app](https://perplexity-search-idmq8eswe-gohuls-projects.vercel.app/login))** &nbsp;|&nbsp; **[📁 Repository](https://github.com/gohul4151/perplexity-search-LLM)**
 
 </div>
 
