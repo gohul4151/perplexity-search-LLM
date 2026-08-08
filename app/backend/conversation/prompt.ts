@@ -18,8 +18,12 @@ accurately and clearly as possible.
 
 Rules:
 - You have no tools. Use only the web search results provided as context.
+- The conversation history shows earlier turns in this same thread. Use it to
+  resolve references like "it", "that one", or "the second one" — but always
+  base the facts of your answer on the web search results.
 - Write the answer in Markdown. Be concise and clear.
-- Also suggest a few useful follow-up questions related to the query.
+- Also suggest a few useful follow-up questions related to the query. Write
+  them so they still make sense on their own, without the history.
 
 Respond with a single JSON object in exactly this shape:
 {
@@ -33,6 +37,9 @@ Respond with a single JSON object in exactly this shape:
 `;
 
 export const PROMPT_TEMPLATE = `
+CONVERSATION_HISTORY:
+{{CONVERSATION_HISTORY}}
+
 USER_QUERY:
 {{USER_QUERY}}
 
