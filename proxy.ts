@@ -5,7 +5,7 @@ import { updateSession } from "./lib/supabase/middleware";
  * Root proxy — runs before every matched request and delegates to the
  * Supabase session helper, which refreshes the session and enforces sign-in.
  */
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   return await updateSession(request);
 }
 
